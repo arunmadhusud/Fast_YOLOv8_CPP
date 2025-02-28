@@ -8,7 +8,7 @@ This repository contains the code for inferencing YOLOv8n in C++ using OpenVINO 
 
 ## Installation
 Install OpenVINO using the instructions from the official documentation:
-https://docs.openvino.ai/2024/get-started/install-openvino/install-openvino-archive-linux.html
+[OpenVINO Installation Guide](https://docs.openvino.ai/2024/get-started/install-openvino/install-openvino-archive-linux.html)
 
 ## Usage
 ### Build Instructions
