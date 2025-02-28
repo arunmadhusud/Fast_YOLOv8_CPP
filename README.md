@@ -1,14 +1,14 @@
 # Fast_YOLOv8_CPP
 
 ## Introduction  
-This repository contains the code for performing inference on the **YOLOv8n object detection model** in **C++**. The three approaches implemented are:  
+This repository contains the code for performing inference on the YOLOv8n object detection model in C++. The three approaches implemented are:  
 
 1. **OpenCV DNN Module** – The easiest to integrate, supports Intel OpenVINO backend for acceleration.  
-2. **ONNX Runtime** – More flexible across different platforms; allows selecting execution providers like **OpenVINO or TensorRT** based on hardware.  
+2. **ONNX Runtime** – More flexible across different platforms; allows selecting execution providers like OpenVINO or TensorRT based on hardware.  
 3. **OpenVINO** – Optimized for Intel hardware, delivering the best performance.  
 
-For comparison, I tested all three approaches using **YOLOv8n** object detection with both **FP32 models** and **INT8 static quantization**.  
-**OpenVINO proved to be the fastest** on a **12th Gen Intel® Core™ i7-12650H processor**.  
+For comparison, I tested all three approaches using **YOLOv8n** object detection with both **FP32 models** and **INT8 static quantized models**.  
+OpenVINO proved to be the fastest on my **Intel® Core™ i7-12650H processor**.  
 
 ## Usage  
 Check out the subfolders for individual implementation instructions:  
